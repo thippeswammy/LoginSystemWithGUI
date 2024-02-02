@@ -172,6 +172,7 @@ public class LoginSystem extends JFrame {
             username.setText("");
             //you can do what action u want if username and password matches
             // Successful login action or function_name()
+            SuccessfulLoginAction();
         } else {
             JOptionPane.showMessageDialog(null, "Invalid Login Details", "Login", JOptionPane.ERROR_MESSAGE);
             username.setText(enteredUsername);
@@ -186,7 +187,15 @@ public class LoginSystem extends JFrame {
 
     private void exitButtonActionPerformed(java.awt.event.ActionEvent evt) {
         JFrame frame = new JFrame("Exit");
-        if ((JOptionPane.showConfirmDialog(frame, "Comfirm if you want to exit", "Tic tac Toe",
+        if ((JOptionPane.showConfirmDialog(frame, "Comfirm if you want to exit", "Confirmtion Dialog",
+                JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION)) {
+            System.exit(0);
+        }
+    }
+
+    public void SuccessfulLoginAction() {
+        JFrame frame = new JFrame("Successful");
+        if ((JOptionPane.showConfirmDialog(frame, "Successful logged in", "Confirmtion Dialog",
                 JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION)) {
             System.exit(0);
         }
