@@ -14,7 +14,8 @@ Intended audience:
     Ideal for learning basic login system concepts and GUI development.
 
 # Output:
-![lockerApper2](https://github.com/thippeswammy/LoginSystemWithGUI/assets/73697198/d9e67775-5c7d-4cbf-b768-6547167db021)
+![lockerApper](https://github.com/thippeswammy/LoginSystemWithGUI/assets/73697198/b2d698ec-6c33-400e-9167-eb5d726ef31d)
+
 
 
 # Installation:
