@@ -15,3 +15,14 @@ Intended audience:
 
 # Output:
 ![lockerApper](https://github.com/thippeswammy/LoginSystemWithGUI/assets/73697198/d008ebfa-f91e-44c2-8214-68cac88d0099)
+
+
+# Installation:
+
+To run the game locally, follow these steps:
+
+create new project in NetBeans or your preferred Java IDE.
+
+download the "NumberPuzzleGame.java" and put in scr folder then.
+
+Build and run the project.
