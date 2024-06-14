@@ -23,6 +23,6 @@ To run the game locally, follow these steps:
 
 create new project in NetBeans or your preferred Java IDE.
 
-download the "NumberPuzzleGame.java" and put in scr folder then.
+download the "LoginSystem.java.java" and put in scr folder then.
 
 Build and run the project.
